@@ -60,11 +60,14 @@
 }
 .cont-cred-texto h2 {
   color: black;
-  margin-bottom: 0.938rem;
+  text-decoration: underline;
+  margin-bottom: 0.625rem;
+  margin-top: 5.625rem;
 }
 .cont-cred-texto p {
   color: blue;
   line-height: 1.8;
+  padding: 0.625rem 0.938rem;
 }
 .cont-cred-img {
   flex: 1;
@@ -94,6 +97,7 @@
 .cont-seg-texto h2 {
   color: rgb(189, 189, 233);
   line-height: 1.6;
+  text-decoration: underline;
 }
 
 .cont-seg-texto button {
