@@ -64,7 +64,10 @@
 }
 .cont-cred-texto p {
   color: blue;
-  line-height: 1.5;
+  line-height: 1.8;
+  background: mediumseagreen; /*Fondo del texto*/
+  border-radius: 0.313rem;
+  padding: 0.25rem 0.938rem; /*extiende el borde del texto*/
 }
 .cont-cred-img {
   flex: 1;
@@ -72,6 +75,7 @@
 .cont-cred-img img {
   width: 100%;
   max-width: 31.25rem;
+  /*extiende el borde del texto*/
   /*border-radius: 0.625rem;*/
 }
 .seccion-seguros {
