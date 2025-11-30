@@ -65,9 +65,15 @@
   margin-top: 5.625rem;
 }
 .cont-cred-texto p {
-  color: blue;
+  background-color: #e8ffd1; /* mismo color suave */
+  color: #2b2b2b;
   line-height: 1.8;
-  padding: 0.625rem 0.938rem;
+  padding: 1rem 1.2rem;
+
+  border-radius: 0.6rem;
+  width: fit-content;
+  max-width: 100%;
+  margin: 1rem 0;
 }
 .cont-cred-img {
   flex: 1;
@@ -100,6 +106,11 @@
   text-decoration: underline;
 }
 
+.cont-seg-texto p {
+  color: #2b2b2b;
+  line-height: 1.8;
+}
+
 .cont-seg-texto button {
   margin-top: 1.25rem;
   padding: 0.625rem 1.25rem;
@@ -118,6 +129,7 @@
   width: 100%;
   max-width: 31.25rem;
 }
+
 .Seccion-formulario {
   background-color: cadetblue;
   padding: 2.5rem;
@@ -176,7 +188,7 @@
 /*pie de pagina*/
 .seccion-footer {
   background-color: cyan;
-  color: brown;
+  color: navy;
   padding: 2.5rem 1.25rem;
 }
 .cont-gral-footer {
@@ -195,7 +207,7 @@
   margin-bottom: 0.938rem;
 }
 .footer-redes {
-  fles: 1;
+  flex: 1;
 }
 .footer-redes h3 {
   color: rgb(110, 42, 236);
